@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: nginx:perl
+        image: nginx:latest
         ports:
         - containerPort: 80
         resources:
